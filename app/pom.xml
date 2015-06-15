@@ -37,6 +37,10 @@
                 <password>bela</password>
                 <driver>com.mysql.jdbc.Driver</driver>
                 <url>jdbc:mysql://172.30.0.173:3306/test2</url>
+				<locations>
+                        <location>src/main/resources/db/migration</location>
+                        <location>org.flywaydb.sample.migration</location>
+                    </locations>
               </configuration>
             </plugin>
         </plugins>
